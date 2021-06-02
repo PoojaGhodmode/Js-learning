@@ -18,6 +18,15 @@ Projects:
 - BMI calculator
 - Word length Calculator
 
+### DAY 2
+
+Covered Topics:
+- Array (pop, push, shift, unshift)
+- functions
+
+Projects:
+- Shopping Lists
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
