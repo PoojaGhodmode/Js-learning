@@ -27,6 +27,18 @@ Covered Topics:
 Projects:
 - Shopping Lists
 
+### DAY 3
+
+Covered Topics:
+- Boolean 
+- Comparison Operator
+- If else loop
+- Logical operator
+
+Projects:
+- Updated BMI calculator
+
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
