@@ -38,6 +38,14 @@ Covered Topics:
 Projects:
 - Updated BMI calculator
 
+### DAY 4
+
+Covered Topics:
+- Switch statement
+
+Projects:
+- Week day
+- Get count of days in given month
 
 ## Acknowledgment 
 
