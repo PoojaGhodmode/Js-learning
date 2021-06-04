@@ -1,4 +1,5 @@
-var myItems = [
+console.log("Shopping List");
+let myItems = [
   ["banana", 3],
   ["juice", 2],
   ["milk", 2],
