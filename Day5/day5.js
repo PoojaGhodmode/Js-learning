@@ -32,3 +32,24 @@ countCard(7);
 countCard("Q");
 console.log(countCard(2));
 //1 => Bet
+
+console.log("Get the name of month");
+const month = new Date().getMonth();
+console.log(month);
+const monthLookup = {
+  1: "January",
+  2: "February",
+  3: "March",
+  4: "April",
+  5: "May",
+  6: "June",
+  7: "July",
+  8: "August",
+  9: "September",
+  10: "October",
+  11: "November",
+  12: "December",
+};
+
+console.log(`Month => ${monthLookup[month + 1]}`);
+//Month => June
