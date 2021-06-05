@@ -47,6 +47,16 @@ Projects:
 - Week day
 - Get count of days in given month
 
+### DAY 5
+
+Covered Topics:
+- Objects
+
+Projects:
+- Hold or Bet
+- Get name of month
+
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
