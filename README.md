@@ -56,6 +56,12 @@ Projects:
 - Hold or Bet
 - Get name of month
 
+## DAY 6
+
+Covered Topics:
+- DOM manipulation(querySelector, addEventListener)
+- Array (forEach)
+
 
 ## Acknowledgment 
 
