@@ -62,6 +62,13 @@ Covered Topics:
 - DOM manipulation(querySelector, addEventListener)
 - Array (forEach)
 
+## DAY 7
+
+Covered Topics:
+- DOM manipulation(createElement)
+
+Projects:
+- Gradient Generator
 
 ## Acknowledgment 
 
