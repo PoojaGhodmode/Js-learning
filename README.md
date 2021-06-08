@@ -70,6 +70,14 @@ Covered Topics:
 Projects:
 - Gradient Generator
 
+## DAY 8
+
+Covered Topics:
+- Chart.js
+
+Projects:
+- Polar Area chart (Top 5 cities of India)
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
