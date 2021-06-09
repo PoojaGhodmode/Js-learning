@@ -56,13 +56,13 @@ Projects:
 - Hold or Bet
 - Get name of month
 
-## DAY 6
+### DAY 6
 
 Covered Topics:
 - DOM manipulation(querySelector, addEventListener)
 - Array (forEach)
 
-## DAY 7
+### DAY 7
 
 Covered Topics:
 - DOM manipulation(createElement)
@@ -70,7 +70,7 @@ Covered Topics:
 Projects:
 - Gradient Generator
 
-## DAY 8
+### DAY 8
 
 Covered Topics:
 - Chart.js
@@ -78,7 +78,7 @@ Covered Topics:
 Projects:
 - Polar Area chart (Top 5 cities of India)
 
-## DAY 9
+### DAY 9
 
 Covered Topics:
 - Loops( for, while )
