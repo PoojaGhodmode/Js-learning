@@ -78,6 +78,11 @@ Covered Topics:
 Projects:
 - Polar Area chart (Top 5 cities of India)
 
+## DAY 9
+
+Covered Topics:
+- Loops( for, while )
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
