@@ -83,6 +83,16 @@ Projects:
 Covered Topics:
 - Loops( for, while )
 
+### DAY 10
+
+Covered Topics:
+- Do-while Loop
+- random
+- Ternary Operator
+
+Projects:
+- Profile Lookup
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
