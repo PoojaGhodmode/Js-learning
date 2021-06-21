@@ -93,6 +93,14 @@ Covered Topics:
 Projects:
 - Profile Lookup
 
+### DAY 11
+
+Covered Topics:
+- var vs let vs const
+- arrow function
+- rest operator
+- spread operator
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
