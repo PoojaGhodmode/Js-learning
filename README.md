@@ -101,6 +101,13 @@ Covered Topics:
 - rest operator
 - spread operator
 
+### DAY 12
+
+Covered Topics:
+- deconstructing objects, array
+- string literals
+
+
 ## Acknowledgment 
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
