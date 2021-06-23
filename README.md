@@ -107,6 +107,13 @@ Covered Topics:
 - deconstructing objects, array
 - string literals
 
+### DAY 13
+
+Covered Topics:
+- constructor
+- getter setter methods
+- import
+
 
 ## Acknowledgment 
 
