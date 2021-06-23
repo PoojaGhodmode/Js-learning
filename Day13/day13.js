@@ -69,7 +69,7 @@ t1.temparature = 100;
 temp = t1.temparature;
 console.log(temp); //100
 
-// difference between import and require
+// import
 
 // console.log(checkEven(5));//day13.js:74 Uncaught ReferenceError: checkEven is not defined
 
