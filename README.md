@@ -114,6 +114,14 @@ Covered Topics:
 - getter setter methods
 - import
 
+### DAY 14
+ 
+Covered Topics:
+- textContent
+
+Projects:
+- Passanger counter app
+
 
 ## Acknowledgment 
 
