@@ -31,7 +31,7 @@ h1 {
   font-style: italic;
 }
 
-.start-game {
+.btn {
   width: max-content;
   padding: 0.7rem 1.5rem;
   background-color: rgba(38, 126, 100, 0.952);
@@ -40,4 +40,9 @@ h1 {
   cursor: pointer;
   color: aliceblue;
   letter-spacing: 2px;
+}
+
+.btn.disabled{
+  background-color: gray;
+  pointer-events: none;
 }
