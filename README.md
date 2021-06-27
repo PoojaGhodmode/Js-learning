@@ -151,6 +151,12 @@ Projects:
 
 - Blackjack game(Part 1)
 
+### DAY 16
+
+Projects:
+
+-BlackJack game (Part 2)
+
 ## Acknowledgment
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
