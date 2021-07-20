@@ -157,6 +157,20 @@ Projects:
 
 -BlackJack game (Part 2)
 
+### DAY 17
+
+Covered topics:
+- Async JS
+   - XMLHttpRequest
+   - Promise
+   - async await
+
 ## Acknowledgment
 
 - [FCC JS course](https://www.youtube.com/watch?v=PkZNo7MFNFg)
+
+- [FCC JS course 2](https://youtu.be/jS4aFq5-91M)
+ 
+- [The net ninja](https://youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu)
+
+
