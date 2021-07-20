@@ -21,6 +21,9 @@
 const getTodos = async () => {
   const response = await fetch("todos/part1.json");
   // await => once promise is resolved it assign value to variable response
+  if (response.status !== 200) {
+    throw new Error("could not fetch data");
+  }
   const data = await response.json();
   return data;
 };
@@ -30,5 +33,5 @@ getTodos()
     console.log(data);
   })
   .catch((err) => {
-    console.log(err);
-  });
+    console.log(err.message);
+  }); 
