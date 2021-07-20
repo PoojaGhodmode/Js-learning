@@ -1,4 +1,4 @@
-const getTodos = (callback) => {
+const getTodos = (resource, callback) => {
   const request = new XMLHttpRequest();
 
   request.addEventListener("readystatechange", () => {
@@ -17,23 +17,66 @@ const getTodos = (callback) => {
       //40X - Client error message 404-NOT FOUND
       //50X - server error message
       //   console.log(request, request.responseText);
-      callback(undefined, request.responseText);
+      const data = JSON.parse(request.responseText);
+      callback(undefined, data);
     } else if (request.readyState === 4) {
       callback("could not fetch data", undefined);
     }
   });
 
-  request.open("GET", "https://jsonplaceholder.typicode.com/todos/1"); // readyState - 1
+  request.open("GET", `${resource}`); // readyState - 1
 
   request.send(); // readyState - 2
 };
 
-
-getTodos((err, data) => {
+getTodos("todos/part1.json", (err, data) => {
   let response = !err ? data : err;
   console.log(response);
 });
 
+//callback hell
+getTodos("todos/part1.json", (err, data) => {
+  let response = !err ? data : err;
+  console.log(response);
+  getTodos("todos/part2.json", (err, data) => {
+    let response = !err ? data : err;
+    console.log(response);
+    getTodos("todos/part3.json", (err, data) => {
+      let response = !err ? data : err;
+      console.log(response);
+    });
+  });
+});
 
+// Promise
 
+const getSomething = () => {
+  return new Promise((resolve, reject) => {
+    //fetch something
+    //reject - error
+    //resolve - fulfiled
+    resolve("some data");
+    // reject("some error");
+  });
+};
 
+// 2 function
+
+getSomething().then(
+  (data) => {
+    console.log(data); // some data
+  },
+  (err) => {
+    console.log(err); // some error if uncommented
+  }
+);
+
+//or then and catch
+
+getSomething()
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
