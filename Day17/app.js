@@ -34,7 +34,14 @@ const getTodos = (resource) => {
 getTodos("todos/part1.json")
   .then((data) => {
     console.log(data);
-    
+    return getTodos("todos/part2.json");
+  })
+  .then((data) => {
+    console.log(data);
+    return getTodos("todos/part3.json");
+  })
+  .then((data) => {
+    console.log(data);
   })
   .catch((err) => {
     console.log(err);
